@@ -1,3 +1,5 @@
+# Administración de servidores web
+
 ## 1. Instale en una máquina virtual un sistema operativo con base Linux (se recomienda Debian o Ubuntu) e instale apache2.
 
 ![image](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/d48daf77-c1a9-467f-821a-4f3623e57160)
@@ -85,6 +87,8 @@ Para que no se sature con los logs se van archivando y creando unos nuevos.
 
 •	Análisis de logs: Instala y usa herramientas como goaccess para analizar y obtener estadísticas visuales a partir de tus logs de Apache2.
 
+![image](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/f884383c-f342-404f-8bb3-2d55ec0f880d)
+![image](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/c98bede5-d548-4ab2-9516-4edeac35c1f9)
 
 
 ## 8. ¿Qué es un Firewall? ¿Para qué sirve? ¿Por qué es necesario? Instale y configure un Firewall en la máquina virtual para que solo permita tráfico HTTP y HTTPS. Bloquee todo el resto de los puertos y demuestre su funcionamiento.
