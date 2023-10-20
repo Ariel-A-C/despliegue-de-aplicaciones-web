@@ -3,6 +3,7 @@
 ## 1. Instale en una máquina virtual un sistema operativo con base Linux (se recomienda Debian o Ubuntu) e instale apache2.
 
 ![image](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/d48daf77-c1a9-467f-821a-4f3623e57160)
+![Captura (61)](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/228b9437-50b3-4391-b663-e269803b639c)
 
 
 ## 2. Explique con sus palabras que es una petición GET, POST, PUT y DELETE, remarcando sus diferencias.
