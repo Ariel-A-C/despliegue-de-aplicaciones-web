@@ -2,7 +2,6 @@
 
 ## 1. Instale en una máquina virtual un sistema operativo con base Linux (se recomienda Debian o Ubuntu) e instale apache2.
 
-![image](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/d48daf77-c1a9-467f-821a-4f3623e57160)
 ![Captura (61)](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/228b9437-50b3-4391-b663-e269803b639c)
 
 
@@ -15,36 +14,36 @@
 
 ## 3. Cambie del puerto 80 al puerto 4444 el servidor apache2. Muestra desde el navegador su funcionamiento adjuntando una captura de pantalla.
 
-![image](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/6394e47b-fc48-4d84-bbf1-c8b69deea82a)
+![Captura (62)](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/d0ec4ea7-b3f4-4b92-a803-acb257e0ccdc)
 
  
 ## 4. Instale un certificado SSL y configure su Apache para servir contenido a través de HTTPS en el puerto 4444. Muestre desde el navegador cómo se muestra el sitio web como "seguro" (aunque sea un certificado autofirmado).
 
-![image](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/9c70fd3a-fb63-4edc-bd82-00030b5892c1)
+![Captura (63)](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/7841caeb-e5cf-4133-9e66-00a08783b841)
 
 
 ## 5. ¿Dónde se encuentran los ficheros de configuración de Apache2?
 •	Ubicación principal.
 
-![image](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/a03886a4-1f78-4c60-8b66-6703b1d6fc20)
+![Captura (64)](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/5f87e206-ae52-4101-9c37-e45c8d8ffb6a)
 
 •	Explora el archivo apache2.conf. Identifica las secciones principales y describe su propósito.
 
 Resumen del archivo de configuración.
 
-![image](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/fa8f17de-dd23-460c-972b-a042edc544dd)
+![Captura (65)](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/a085f39d-0982-4aee-993d-90c9842166b0)
 
 Configuración global.
 
-![image](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/6c25f24d-6f8f-4ef5-9654-839e3a6b4c4c)
+![Captura (66)](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/d6414fdd-5405-43c2-813c-30108a56259d)
 
 Opciones de seguridad.
 
-![image](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/81883f1e-26b7-437d-bf02-5537fb659c62)
+![Captura (67)](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/2aa92563-0832-4951-b313-5229e6c01eb1)
 
 Formatos de logs.
 
-![image](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/8282b6d9-ad2b-470c-96a8-cd7ce90f4222)
+![Captura (68)](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/8404e46b-087a-4d34-9c42-40130eac928f)
 
 •	sites-available y sites-enabled: Explica la diferencia entre estos dos directorios y cómo funcionan juntos.
 Ficheros de configuración de Virtual Hosts de Apache2 / Enlaces simbólicos a las configuraciones de sites-avaliable. ‘enabled’ tiene como accesos directos a las configuraciones de ‘avaliable’ para poder activarlas o desactivarlas sin tener que reescribirlas.
@@ -56,46 +55,47 @@ Lo mismo excepto que con módulos.
 ## 6. ¿Dónde se encuentran los ficheros de ejecución de Apache2?
 •	Ubicación principal
 
-![image](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/de2d7dda-f490-4c34-a5fb-e1015f4e69c9)
+![Captura (90)](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/2b8dae55-43b3-4443-b4e7-d4b885f85a40)
 
 •	Control del servicio: Utiliza el binario de ejecución para iniciar, detener, recargar y reiniciar el servidor Apache2 explicando la diferencia entre cada uno de los comandos utilizados.
 
-![image](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/d087d066-c6c9-4785-9b53-8ea555797c6d)
-![image](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/495ce20e-83f7-4194-afcb-f6633fe356c2)
-![image](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/51da7af4-2a96-49f2-b4bb-0d139b8a0409)
+![Captura (91)](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/6592f8c6-aaa5-4ab8-a4ef-5d146a44a903)
+![Captura (92)](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/4aab9a76-ee0d-4e7e-af0e-afe0256a1b8d)
+![Captura (93)](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/78f8d401-a26f-4bc9-812a-af3c82680fbf)
 
 •	Comprobación de sintaxis: Usa el binario de Apache para verificar la sintaxis de tu configuración. Esto es útil para asegurarse de que no haya errores antes de reiniciar el servidor.
 
-![image](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/c6b1cf0d-358e-47bf-808c-0ee86505dc3a)
+![Captura (94)](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/53b63c4f-7cce-4159-a8df-86628bdf269e)
 
 
 ## 7. ¿Dónde se encuentran los ficheros de monitorización de Apache2?
 •	Ubicación principal
 
-![image](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/e58516f9-9ac8-4240-9dbe-07dc09b90081)
+![Captura (85)](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/ce2913f4-fd13-4f7a-b29d-08026556fdfe)
 
 •	error.log y access.log: Explica la diferencia entre estos dos archivos. Abre y revisa las entradas recientes en cada uno de ellos.
 error.log contiene avisos y errores del servidor y access.log contiene información sobre los visitantes del servidor.
 
-![image](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/ea8d1c02-80e5-4337-8991-39f1ef252aba)
- 
+![Captura (87)](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/883efffb-b6fd-4325-a80f-b955db0bdaa0)
+![Captura (86)](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/004f5819-4dea-4e50-84a9-60a6a72983e8)
+
 •	Rotación de logs: Investiga cómo funciona la rotación de logs en Apache2. ¿Por qué es importante? ¿Cómo se configura?
 Para que no se sature con los logs se van archivando y creando unos nuevos.
 
 •	Monitorización en tiempo real: Utiliza herramientas como tail -f para monitorear en tiempo real los accesos a tu servidor web y posibles errores.
 
-![image](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/a3526355-b9a3-49f2-ab3b-f8c8f8cdd747)
+![Captura (88)](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/bb7aa811-e6e4-4c2c-828d-7f5c47026a95)
 
 •	Análisis de logs: Instala y usa herramientas como goaccess para analizar y obtener estadísticas visuales a partir de tus logs de Apache2.
 
-![image](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/f884383c-f342-404f-8bb3-2d55ec0f880d)
-![image](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/c98bede5-d548-4ab2-9516-4edeac35c1f9)
+![Captura (95)](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/3da8608e-9915-4fe0-8524-47e7d6f8b618)
+![Captura (98)](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/da782649-e354-4c8b-85ef-e62b3eafd329)
 
 
 ## 8. ¿Qué es un Firewall? ¿Para qué sirve? ¿Por qué es necesario? Instale y configure un Firewall en la máquina virtual para que solo permita tráfico HTTP y HTTPS. Bloquee todo el resto de los puertos y demuestre su funcionamiento.
 Un firewall es un dispositivo de seguridad de la red que monitoriza el tráfico entrante y saliente y decide si debe permitir o bloquear un tráfico específico en función de un conjunto de restricciones de seguridad ya definidas. Es necesario para aumentar la seguridad del ordenador.
 
-![image](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/a863ecf9-b549-4cb6-a906-e450b005c935)
+![Captura (89)](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/f479316e-02c4-4c80-ac47-e0566917172e)
 
 ## 9. Explica con tus palabras las diferentes partes de una URL.
 - Protocolo: el sistema de intercambio de información por internet que se está siguiendo.
@@ -107,7 +107,7 @@ Un firewall es un dispositivo de seguridad de la red que monitoriza el tráfico 
 - Parámetros: una especie de variables que señalan cosas como el idioma, el número de página, una búsqueda…
 - Fragmento: señala en qué parte de la web se está exactamente.
 
-![image](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/0a9991d1-9b5c-4408-b437-173df871475d)
+![image](https://miro.medium.com/v2/resize:fit:1400/1*O2QB8zBNMs7SN44AhGdPrg.png)
 
 ## 10. Explica el funcionamiento del protocolo HTTP con tus palabras.
 En el protocolo HTTP, un cliente (navegador web) envía una petición a un servidor con un mensaje. Después, el servidor devuelve una respuesta al cliente. Las peticiones usan algunos de los comandos disponibles según lo que quieran del servidor. 
