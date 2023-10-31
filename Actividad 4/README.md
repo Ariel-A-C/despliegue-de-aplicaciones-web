@@ -18,3 +18,8 @@ estilo css para que se visualice correctamente.
 Para ello, tendrás que crear un archivo de configuración (copiado de 000-default.conf)
 para cada uno de los dominios. Recuerda que con a2ensite puedes crear los enlaces
 simbólicos necesarios para añadir esta configuración a la ejecución de apache
+
+![Captura (133)](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/c6eab3af-3b4e-4c8d-aeb8-184dabd4d46a)
+![Captura (136)](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/6bc0c18e-7deb-4c51-93b7-c6f79fda3c99)
+![Captura (135)](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/eb32bcb3-1a7a-49a1-9369-ab956f72abe9)
+![Captura (134)](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/b306db53-3c68-49e0-9771-9cf7ff13f294)
