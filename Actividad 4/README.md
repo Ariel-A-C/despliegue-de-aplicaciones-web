@@ -23,3 +23,6 @@ simbólicos necesarios para añadir esta configuración a la ejecución de apach
 ![Captura (136)](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/6bc0c18e-7deb-4c51-93b7-c6f79fda3c99)
 ![Captura (135)](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/eb32bcb3-1a7a-49a1-9369-ab956f72abe9)
 ![Captura (134)](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/b306db53-3c68-49e0-9771-9cf7ff13f294)
+
+![Captura (137)](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/f308737d-0f8b-42c2-93bd-d711b81f7205)
+![Captura (138)](https://github.com/Ariel-A-C/despliegue-de-aplicaciones-web/assets/144775269/27bc32de-b3ed-4510-92d0-3ee8f3f469ee)
